@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+
+.problema0{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.problema0 h2{
+    text-align: center;
+    padding: 20px;
+  }
+
+.problema1{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.problema2{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.problema3{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.problema2h2{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+button {
+    background-color: #2626a5;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+img {
+    padding: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+input{
+    color: rgb(32, 31, 31);
+    padding: 10px;
+    width: 280px;
+    border: 2px solid rgb(210, 210, 210);
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+
+  .stickers{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+  }
+
+  select{
+    padding: 5px;
+    width: 100px;
+  }
